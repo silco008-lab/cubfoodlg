@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<nav>
+<a href="#video">Promo Video</a>
+<a href="#menu">Menu</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+
+<section class="hero">
+<div class="hero-text">
+<h1>Fresh Cubs Favorites, Delivered Daily</h1>
+<p>
+Enjoy a renovated selection of Cubs meals — freshly prepared, fast delivery,
+and unbeatable taste. Order now or explore our new updated menu.
+</p>
+<button class="btn-primary">Order Now</button>
+</div>
+
+
+<img src="https://via.placeholder.com/420x260/1c2b45/ffffff?text=Cubs+Food" alt="Cubs Food" style="border-radius: var(--radius); width: 420px; max-width: 100%;" />
+</section>
+
+
+<section class="video-section" id="video">
+<h2>Featured Cubs Promo Video</h2>
+<p class="muted">Replace the video file below with your own Cubs food promo.</p>
+
+
+<video controls>
+<source src="cubs-demo.mp4" type="video/mp4" />
+Your browser does not support video playback.
+</video>
+</section>
+
+
+<section class="menu" id="menu">
+<h2>Cubs Menu</h2>
+<div class="menu-grid">
+<div class="item">
+<h3>Cubs Classic Burger</h3>
+<p class="muted">Juicy patty, fresh toppings, signature sauce.</p>
+<div class="price">$7.99</div>
+</div>
+<div class="item">
+<h3>Home Run Fries</h3>
+<p class="muted">Crispy, seasoned, absolutely addicting.</p>
+<div class="price">$3.49</div>
+</div>
+<div class="item">
+<h3>Ballpark Nachos</h3>
+<p class="muted">Cheese, jalapeños, and Cubs-style crunch.</p>
+<div class="price">$5.99</div>
+</div>
+<div class="item">
+<h3>Grand Slam Shake</h3>
+<p class="muted">Rich, creamy, available in 3 flavors.</p>
+<div class="price">$4.99</div>
+</div>
+</div>
+</section>
+
+
+<footer id="contact">
+Cubs Food © 2025 • Renovated Website Experience<br />
+Reach us at <strong>support@cubsfood.com</strong>
+</footer>
+
+
+</body>
+</html><!doctype html>
+<main>
+<section class="hero container">
+<div class="hero-left">
+<h1>Renovated Cubs Food — Fresh. Fast. Fan-First.</h1>
+<p class="lead">Explore Wrigley-inspired flavors, stadium classics, and limited-run chef creations. Updated for 2025 with rotating menus and local favorites.</p>
+<div class="hero-cta">
+<a class="btn" href="menu.html">View Menu</a>
+<a class="btn ghost" href="#video">Watch Promo</a>
+</div>
+
+
+<div class="highlights">
+<article>
+<h4>Daily Specials</h4>
+<p>New chef-driven specials rotate every homestand.</p>
+</article>
+<article>
+<h4>Local Sourcing</h4>
+<p>We partner with Chicago suppliers for fresh ingredients.</p>
+</article>
+<article>
+<h4>Mobile Ordering</h4>
+<p>Skip lines with pickup and express lanes.</p>
+</article>
+</div>
+</div>
+
+
+<aside class="hero-right">
+<img src="assets/hero-food.jpg" alt="Cubs food collage" class="hero-image" />
+</aside>
+</section>
+
+
+<section id="video" class="promo container">
+<h2>Featured Promo</h2>
+<div class="media-grid">
+<video controls preload="metadata" poster="assets/video-poster.jpg">
+<source src="assets/cubs-demo.mp4" type="video/mp4" />
+Your browser doesn't support video.
+</video>
+
+
+<div class="audio-card">
+<h3>Stadium Ambience</h3>
+<p class="muted">Play the ambient crowd sounds while you browse.</p>
+<audio controls src="assets/stadium-ambience.mp3"></audio>
+</div>
+</div>
+</section>
+
+
+<section class="gallery container">
+<h2>Fan Faves</h2>
+<div class="gallery-grid">
+<img src="assets/food1.jpg" alt="Burger" />
+<img src="assets/food2.jpg" alt="Nachos" />
+<img src="assets/food3.jpg" alt="Shake" />
+<img src="assets/food4.jpg" alt="Hot Dog" />
+</div>
+</section>
+
+
+</main>
+
+
+<footer class="site-footer">
+<div class="container">
+<div>Cubs Food • Renovated Experience • &copy; 2025</div>
+<div class="muted small">Content includes official Wrigley Field concessions highlights and new 2025 menu items where applicable.</div>
+</div>
+</footer>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Cubs Food — Menu</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header class="site-header">
+<div class="container">
+<a href="index.html" class="logo">Cubs Food</a>
+<nav>
+<a href="menu.html">Menu</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<h1>Menu</h1>
+<p class="muted">A curated selection inspired by Wrigley concessions and modern ballpark trends.</p>
+
+
+<div class="menu-filters">
+<label>Filter: <select id="filter">
+<option value="all">All</option>
+<option value="classic">Classic</option>
+<option value="chef">Chef Specials</option>
+<option value="vegan">Vegan</option>
+</select></label>
+</div>
+
+
+<div id="menuGrid" class="menu-grid">
+<!-- items are injected by JS for demo; replace with server-generated content if available -->
+</div>
+
+
+</main>
+
+
+<footer class="site-footer">
+<div class="container">Cubs Food • &copy; 2025</div>
+</footer>
+
+
+<script src="js/main.js"></script>
+</body>
+</html><!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>About — Cubs Food</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header class="site-header">
+<div class="container">
+<a href="index.html" class="logo">Cubs Food</a>
+<nav>
+<a href="menu.html">Menu</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<h1>About Cubs Food</h1>
+<p class="muted">We combine classic ballpark flavors with rotating chef menus and local Chicago ingredients.</p>
+
+
+<section class="history">
+<h2>Wrigley Concessions & Recent Updates</h2>
+<p>Wrigley Field maintains an updated concessions guide that includes stadium staples and regional partners. Recent 2025 updates introduced rotating chef menus and new limited-run items. (Sources: MLB concessions guide; Eater coverage on 2025 menu updates.)</p>
+</section>
+
+
+<section class="team">
+<h2>Our Team</h2>
+<p class="muted">Culinary directors, stadium partners, and local vendors collaborate each season to keep the menu fresh.</p>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">Cubs Food • &copy; 2025</div>
+</footer>
+</body>
+</html><!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Contact — Cubs Food</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header class="site-header">
+<div class="container">
+<a href="index.html" class="logo">Cubs Food</a>
+<nav>
+<a href="menu.html">Menu</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container contact-page">
+<h1>Contact & Catering</h1>
+<p class="muted">For group orders, catering, and media inquiries, use the form below.</p>
+
+
+<form id="contactForm" class="contact-form">
+<label>Name <input id="name" required></label>
+<label>Email <input id="email" type="email" required></label>
+<label>Message <textarea id="message" rows="5"></textarea></label>
+<div><button class="btn" type="submit">Send Message</button></div>
+<div id="formStatus" class="muted small" style="display:none;margin-top:8px">Demo only — no backend connected.</div>
+</form>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">Cubs Food • &copy; 2025</div>
+</footer>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>/* Reset + layout */
+:root{
+--bg:#071026; --card:#0f1b2a; --accent:#4fc3ff; --muted:#9fb3cc; --text:#eef6ff; --radius:12px; --container:1100px;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;background:linear-gradient(180deg,var(--bg),#02101a);color:var(--text);}
+.container{max-width:var(--container);margin:0 auto;padding:20px}
+.site-header{background:rgba(255,255,255,0.02);backdrop-filter:blur(6px);}
+.site-header .container{display:flex;align-items:center;justify-content:space-between;padding:14px 20px}
+.logo{font-weight:800;color:var(--accent);text-decoration:none;font-size:20px}
+nav a{color:var(--muted);margin-left:18px;text-decoration:none;font-weight:600}
+nav a:hover{color:var(--text)}
+
+
+/* Hero */
+.hero{display:flex;gap:24px;align-items:center;padding:36px 0}
+.hero-left{flex:1}
+.hero h1{font-size:36px;margin:0}
+.lead{color:var(--muted);margin-top:10px}
+.btn{display:inline-block;padding:12px 18px;border-radius:10px;background:var(--accent);color:#00111f;text-decoration:none;font-weight:700;margin-right:10px}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.05);color:var(--text)}
+
+
+.hero-image{width:420px;border-radius:12px;object-fit:cover}
+.highlights{display:flex;gap:12px;margin-top:20px}
+.highlights article{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px;flex:1}
+.highlights h4{margin:0}
+
+
+/* Promo */
+.promo{margin-top:28px;padding:18px;background:rgba(255,255,255,0.02);border-radius:12px}
+.media-grid{display:grid;grid-template-columns:1fr 320px;gap:16px}
+.audio-card{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px}
+
+
+/* Gallery */
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:12px}
+.gallery-grid img{width:100%;border-radius:8px;display:block;height:160px;object-fit:cover}
+
+
+/* Menu */
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:12px}
+.menu-card{background:rgba(255,255,255,0.02);padding:14px;border-radius:10px}
+.menu-card h3{margin:6px 0}
+.price{color:var(--accent);font-weight:800}
+
+
+/* Footer */
+.site-footer{padding:18px 0;text-align:center;color:var(--muted);margin-top:30px}
+.small{font-size:13px}
+.muted{color:var(--muted)}
+
+
+/* Responsive */
+@media (max-width:900px){.media-grid{grid-template-columns:1fr}.gallery-grid{grid-template-columns:repeat(2,1fr)}.hero{flex-direction:column}.hero-image{width:100%}}
+@media (max-width:520px){.gallery-grid{grid-template-columns:1fr}}// Simple interactive behavior for demo site
+const menuItems = [
+{id:1, title:'Cubs Classic Burger', desc:'Juicy patty, melted cheese, signature sauce.', price:'$8.99', tag:'classic', img:'assets/food1.jpg'},
+{id:2, title:'Home Run Fries', desc:'Crispy fries with seasoning.', price:'$4.49', ta<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Danica Silcox | Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #FF69B4;
+            --secondary-pink: #FFB6C1;
+            --light-pink: #FFF0F5;
+            --dark-pink: #DB7093;
+            --text-color: #4A4A4A;
+            --background-color: #FFF5F8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        /* Improve touch targets on mobile */
+        a, button {
+            min-height: 44px;
+            min-width: 44px;
+            padding: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        section {
+            padding: 4rem 2rem;
+  <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cub Foods — Home</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#fff7f0;
+      --card:#ffffff;
+      --accent:#8b0000;   /* Cub-like maroon */
+      --accent-2:#f4b400; /* gold/yellow */
+      --muted:#666;
+      --wrap:1200px;
+      --radius:14px;
+      --shadow: 0 10px 30px rgba(15,15,15,0.08);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+      background:linear-gradient(180deg,#fff7f0 0%, #fff 40%);
+      color:#111;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+    }
+
+    .wrap{max-width:var(--wrap); margin:0 auto; padding:0 20px}
+
+    header.site-header{
+      position:sticky; top:0; z-index:80;
+      background:rgba(255,255,255,0.92);
+      border-bottom:1px solid rgba(0,0,0,0.06);
+      backdrop-filter: blur(6px);
+    }
+    .site-header .wrap{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 20px}
+    .brand{display:flex; align-items:center; gap:14px}
+    .logo-circle{
+      width:60px; height:60px; border-radius:10px;
+      background:linear-gradient(135deg,var(--accent), #b00020);
+      color:white; display:flex; align-items:center; justify-content:center;
+      font-weight:700; font-family:Rubik, sans-serif; font-size:18px;
+      box-shadow:var(--shadow);
+    }
+    .brand-text .site-title{font-family:Rubik, sans-serif; margin:0; font-size:20px; color:var(--accent)}
+    .brand-text .tag{margin:3px 0 0; color:var(--muted); font-size:13px}
+
+    nav.main-nav a{margin-left:14px; color:#333; text-decoration:none; font-weight:600}
+    nav.main-nav a:hover{color:var(--accent)}
+
+    /* Hero */
+    .hero{padding:44px 0}
+    .hero-inner{display:grid; grid-template-columns:1fr 420px; gap:28px; align-items:center}
+    .eyebrow{color:var(--muted); font-weight:600; margin:0}
+    .big-title{font-family:Rubik, sans-serif; font-size:48px; margin:8px 0 14px; color:var(--accent)}
+    .lead{color:#222; max-width:56ch; font-size:17px}
+    .hero-actions{margin-top:18px; display:flex; gap:12px}
+    .btn{display:inline-block; padding:12px 18px; border-radius:12px; text-decoration:none; font-weight:700}
+    .btn.primary{background:var(--accent); color:white; box-shadow:0 8px 20px rgba(139,0,0,0.12)}
+    .btn.ghost{border:2px solid rgba(0,0,0,0.06); color:var(--accent); background:transparent}
+
+    .hero-box{
+      height:300px; border-radius:14px; background:linear-gradient(180deg,#fff6ef, #fff); display:flex;
+      align-items:center; justify-content:center; color:#bbb; box-shadow:var(--shadow); font-weight:700;
+    }
+
+    /* Sections */
+    .section{padding:44px 0}
+    .section h2{margin:0 0 14px; font-size:26px; color:var(--accent)}
+    .muted{color:var(--muted); font-size:14px}
+
+    /* Deals */
+    .deals-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px}
+    .deal{background:var(--card); padding:18px; border-radius:12px; box-shadow:var(--shadow); border:1px solid rgba(0,0,0,0.03)}
+    .deal h3{margin:0 0 6px}
+    .deal .price{font-weight:800; color:var(--accent-2); font-size:18px}
+
+    /* Menu */
+    .menu-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px}
+    .menu-item{background:linear-gradient(180deg,#fff,#fff); padding:14px; border-radius:12px; box-shadow:var(--shadow); border:1px solid rgba(0,0,0,0.03)}
+    .menu-item h4{margin:0 0 6px; color:#222}
+    .menu-item p{margin:0 0 10px; color:var(--muted)}
+    .menu-item .price{color:var(--accent); font-weight:800}
+
+    /* Gallery */
+    .gallery-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px}
+    .gallery-grid img{width:100%; height:180px; object-fit:cover; border-radius:10px; display:block; transition:transform .25s ease; box-shadow:0 10px 30px rgba(10,10,10,0.06)}
+    .gallery-grid img:hover{transform:scale(1.03); cursor:pointer}
+
+    footer.site-footer{padding:24px 0; border-top:1px solid rgba(0,0,0,0.04); background:linear-gradient(180deg, rgba(244,180,0,0.03), transparent)}
+    footer .wrap{display:flex; justify-content:space-between; align-items:center; gap:12px; font-size:14px; color:var(--muted)}
+
+    /* Responsive */
+    @media (max-width:980px){
+      .hero-inner{grid-template-columns:1fr}
+      .hero-box{height:220px}
+      .big-title{font-size:36px}
+    }
+    @media (max-width:520px){
+      .big-title{font-size:28px}
+      .gallery-grid img{height:140px}
+    }
+
+    /* Lightbox overlay */
+    .lb-overlay{
+      position:fixed; inset:0; display:flex; align-items:center; justify-content:center; background:rgba(0,0,0,0.75); z-index:9999;
+    }
+    .lb-overlay img{max-width:95%; max-height:92%; border-radius:12px}
+    .sr-only{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
+  </style>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="wrap">
+      <div class="brand">
+        <div class="logo-circle">CUB</div>
+        <div class="brand-text">
+          <div class="site-title">CUB FOODS</div>
+          <div class="tag">Fresh • Local • Friendly</div>
+        </div>
+      </div>
+
+      <nav class="main-nav" role="navigation" aria-label="Main">
+        <a href="#deals">Deals</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div>
+          <p class="eyebrow">Welcome to</p>
+          <h1 class="big-title">CUB FOODS</h1>
+          <p class="lead">Discover fresh, flavorful meals and great daily deals. We've prepared a selection of favorites—perfect for students, families, and fans.</p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#deals">Today's Deals</a>
+            <a class="btn ghost" href="#menu">See Menu</a>
+          </div>
+
+          <p style="margin-top:16px;color:var(--muted)">Open daily · Pickup & delivery available · Local ingredients when possible</p>
+        </div>
+
+        <div>
+          <div class="hero-box" aria-hidden="true">Delicious food — made fresh</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="deals" class="section">
+      <div class="wrap">
+        <h2>Today's Deals</h2>
+        <div class="deals-grid">
+          <div class="deal">
+            <h3>Classic Burger Combo</h3>
+            <div class="price">$8.99</div>
+            <p class="muted">Burger + fries + small drink. Student favorite.</p>
+          </div>
+
+          <div class="deal">
+            <h3>Two Pizzas — Special</h3>
+            <div class="price">$12.99</div>
+            <p class="muted">Two medium pizzas — pick any topping.</p>
+          </div>
+
+          <div class="deal">
+            <h3>Breakfast Pack</h3>
+            <div class="price">$6.50</div>
+            <p class="muted">Breakfast sandwich + coffee — great before class.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section">
+      <div class="wrap">
+        <h2>Featured Menu</h2>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <h4>Cub's Classic Burger</h4>
+            <p class="muted">Juicy patty, melty cheese, signature sauce.</p>
+            <div class="price">$7.99</div>
+          </div>
+
+          <div class="menu-item">
+            <h4>Home Run Fries</h4>
+            <p class="muted">Crispy seasoned fries — a must-try.</p>
+            <div class="price">$3.49</div>
+          </div>
+
+          <div class="menu-item">
+            <h4>Grand Slam Shake</h4>
+            <p class="muted">Rich and creamy — Chocolate, Vanilla, Strawberry.</p>
+            <div class="price">$4.99</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section" aria-labelledby="gallery-title">
+      <div class="wrap">
+        <h2 id="gallery-title">Gallery</h2>
+        <p class="muted">Using your Cub Food photos (pictures 5 and 7 were intentionally skipped).</p>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Included images: Cub 1,2,3,4,6,8 -->
+          <img src="Images/Cub 1.JPG" alt="Cub food 1 — burger plate" data-full="Images/Cub 1.JPG">
+          <img src="Images/Cub 2.JPG" alt="Cub food 2 — pizza" data-full="Images/Cub 2.JPG">
+          <img src="Images/Cub 3.JPG" alt="Cub food 3 — fries" data-full="Images/Cub 3.JPG">
+          <img src="Images/Cub 4.JPG" alt="Cub food 4 — shake" data-full="Images/Cub 4.JPG">
+          <img src="Images/Cub 6.JPG" alt="Cub food 6 — salad bowl" data-full="Images/Cub 6.JPG">
+          <img src="Images/Cub 8.JPG" alt="Cub food 8 — sandwiches" data-full="Images/Cub 8.JPG">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2>About Cub Foods</h2>
+        <p class="muted">Cub Foods brings fresh and convenient meals to the local community. We aim for bright flavors, approachable prices, and fast service.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="wrap">
+        <h2>Contact & Hours</h2>
+        <p class="muted">123 Campus Way, Duluth, MN · (555) 123-4567</p>
+        <p class="muted">Open daily • 8:00 AM – 10:00 PM</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="wrap">
+      <div>© Cub Foods — Demo</div>
+      <div class="muted">Pictures 5 and 7 omitted per request.</div>
+    </div>
+  </footer>
+
+  <!-- Minimal JS: lightbox + smooth scroll -->
+  <script>
+    // Smooth anchor scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        e.preventDefault();
+        const id = a.getAttribute('href');
+        if(id === '#') return;
+        const el = document.querySelector(id);
+        if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+      });
+    });
+
+    // Lightbox for gallery
+    document.getElementById('galleryGrid').addEventListener('click', function(e){
+      const img = e.target.closest('img[data-full]');
+      if(!img) return;
+      const src = img.getAttribute('data-full');
+      const overlay = document.createElement('div');
+      overlay.className = 'lb-overlay';
+      overlay.innerHTML = '<img src="'+src+'" alt="'+(img.alt||'')+'"><button aria-label=\"Close\" style=\"position:absolute;top:22px;right:28px;background:transparent;border:0;color:#fff;font-size:28px;cursor:pointer\">✕</button>';
+      overlay.addEventListener('click', (evt)=> {
+        if(evt.target === overlay) overlay.remove();
+      });
+      overlay.querySelector('button').addEventListener('click', ()=> overlay.remove());
+      document.body.appendChild(overlay);
+    });
+
+    // Accessibility: close lightbox on Esc
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape'){
+        const lb = document.querySelector('.lb-overlay');
+        if(lb) lb.remove();
+      }
+    });
+  </script>
+</body>
+</html>      }
+
+        
